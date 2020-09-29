@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Todo App</title>
+<!-- style sheet -->
+<link rel="stylesheet" href="/style.css">
+<!-- font awesome -->
+<script src="js/all.js"></script>
+</head>
+<body>
+<header>
+  <h1>My Todo App</h1>
+</header>
+<form>
+  <input type="text" name="input-field" class="todo-input border-gradient">
+  <button type="submit" class="todo-button">
+    <i class="fas fa-plus-square"></i>
+  </button>
+  <div  class="select">
+  <select name="todos" class="filter-todo">
+    <option value="All">All</option>
+      <option value="Completed">Completed</option>
+      <option value="Uncompleted">Uncompleted</option>
+  </select>
+  </div>
+</form>
+    
+<div class="todo-container">
+  <ul class="todo-list"></ul>
+</div>
+    
+
+<!--script-->   
+<script src="/app.js"></script>
+</body>
+</html>
